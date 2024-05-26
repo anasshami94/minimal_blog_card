@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add some styles for body*/
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Sora', sans-serif;
+}
+
+section {
+  border-radius: 16px;
+  width: 368px;
+  box-shadow: 2px 2px 7px 3px #e5eaf0;
+  margin-top: 164px;
+  height: fit-content;
+}
+
+header {
+  width: 100%;
+  padding: 16px;
+}
+
+img {
+  width: 336px;
+  height: 152px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+article {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags-container {
+  margin-bottom: 16px;
+}
+
+.tag {
+  background-color: #e6d6fc;
+  padding: 6px 16px;
+  border-radius: 14px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #883ae1;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #20293a;
+}
+
+article > p {
+  font-size: 14px;
+  color: #6c727f;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px 16px;
+  border-top: 1px solid #e5eaf0;
+  color: #6c727f;
+  font-size: 12px;
+}
